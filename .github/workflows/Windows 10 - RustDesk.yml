@@ -7,8 +7,6 @@ jobs:
   build:
     name: Start Building...
     runs-on: windows-latest
-    
-    
     steps:
       - name: Downloading & Installing Essentials
         run: |
@@ -19,4 +17,4 @@ jobs:
         run: cmd /c show.bat
 
       - name: Time Counter
-        run: python time.py
+        
